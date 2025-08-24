@@ -1,0 +1,6 @@
+# Optional Python dependencies for future enhancements
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
