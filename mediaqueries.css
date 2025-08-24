@@ -107,10 +107,20 @@
         text-align: center;
     }
 
-    .section__pic-container {
-        width: auto;
-        height: 46vw;
+     .section__pic-container {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+        display: flex;
         justify-content: center;
+        align-items: center;
+    }
+    
+    .section__pic-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* or 'contain' if you want full image visibility */
+        border-radius: 8px; /* optional, for consistent styling */
     }
 
     .section__text__p2 {
@@ -124,4 +134,5 @@
     .text-container {
         text-align: justify;
     }
+
 }
