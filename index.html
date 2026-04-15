@@ -8,13 +8,13 @@
     <title>Christian Sekpe | Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
-    <link rel="icon" href="assets/Logo.webp" type="image/x-icon">
+    <link rel="icon" href="assets/Logo.png" type="image/x-icon">
 </head>
 
 <body>
     <nav id="desktop-nav">
         <div class="logo">
-            <img src="assets/Logo.webp" alt="Logo" class="logo-img" />
+            <img src="assets/logo.png" alt="Logo" class="logo-img" />
             <span>Christian Sekpe</span>
         </div>
         <ul class="nav-links">
@@ -27,7 +27,7 @@
     </nav>
     <nav id="hamburger-nav">
         <div class="logo">
-            <img src="assets/Logo.webp" alt="Logo" class="logo-img" />
+            <img src="assets/logo.png" alt="Logo" class="logo-img" />
             <span>Christian Sekpe</span>
         </div>
         <div class="hamburger-menu">
@@ -51,7 +51,10 @@
         <div class="section__text">
             <p class="section__text__p1">Hello, I'm</p>
             <h1 class="title">Christian Sekpe</h1>
-            <p class="section__text__p2">Data Analyst</p>
+            <p class="section__text__p2">
+                <span id="typed-text"></span>
+                <span class="cursor">|</span>
+            </p>
             <div class="btn-container">
                 <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')">
                     Download CV
@@ -73,7 +76,7 @@
         <h1 class="title">About Me</h1>
         <div class="section-container">
             <div class="section__pic-container about-pic-container">
-                <img src="./assets/profile-pic.png" alt="Profile picture" class="about-pic" />
+                <img src="./assets/profile-pic.jpg" alt="Profile picture" class="about-pic" />
             </div>
             <div class="about-details-container">
                 <div class="about-containers">
@@ -93,13 +96,12 @@
                 </div>
                 <div class="text-container">
                     <p>
-                        I’m a data analyst who loves solving problems and finding patterns in data.
-                        I also enjoy working on creative projects like designing workflows,
-                        improving processes, and helping teams make better decisions.
-                        I use tools like SQL, Python, and Power BI, but I also bring strong
-                        communication and planning skills to every project. I like turning complex
-                        ideas into clear stories, and I’m always learning something new to grow
-                        both as an analyst and a creative thinker.
+                        I am a data analyst who enjoys uncovering insights and identifying patterns in data.
+                        I also work on creative projects such as designing workflows, improving processes,
+                        and helping teams make data-driven decisions. I use tools like Python, SQL, Excel and
+                        Power BI, and bring strong communication and planning skills to my work. I focus on
+                        turning complex ideas into clear, actionable insights and continuously learn to grow
+                        as both an analyst and a creative problem solver.
                     </p>
                 </div>
             </div>
@@ -124,8 +126,8 @@
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                             <div>
-                                <h3> SSMS</h3>
-                                <p>Intermediate</p>
+                                <h3>Data Wrangling</h3>
+                                <p>Experienced</p>
                             </div>
                         </article>
                         <article>
@@ -139,7 +141,21 @@
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                             <div>
                                 <h3> MS PowerBI </h3>
-                                <p>Basic</p>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Text Analytics</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>SQl Server</h3>
+                                <p>Intermediate</p>
                             </div>
                         </article>
                         <article>
@@ -152,8 +168,8 @@
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                             <div>
-                                <h3>Data Wrangling</h3>
-                                <p>Experienced</p>
+                                <h3>Data as a Strategy</h3>
+                                <p>Intermediate</p>
                             </div>
                         </article>
                     </div>
@@ -179,7 +195,7 @@
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                             <div>
                                 <h3>HTML & CSS</h3>
-                                <p>Basic</p>
+                                <p>Intermediate</p>
                             </div>
                         </article>
                         <article>
@@ -204,8 +220,7 @@
                     <div class="article-container">
                         <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
                     </div>
-                    <h2 class="experience-sub-title project-title">ML Loan Approval Prediction Model
-                    </h2>
+                    <h2 class="experience-sub-title project-title">ML Loan Approval Prediction Model</h2>
                     <div class="btn-container">
                         <button class="btn btn-color-2 project-btn"
                             onclick="location.href='https://github.com/intelcorei13/Loan-Approval-Prediction'">
@@ -235,9 +250,56 @@
                 </div>
                 <div class="details-container color-container">
                     <div class="article-container">
-                        <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
+                        <img src="./assets/project-3.jpg" alt="Project 3" class="project-img" />
                     </div>
-                    <h2 class="experience-sub-title project-title">Project Three</h2>
+                    <h2 class="experience-sub-title project-title">The 'Sugar Trap' Market Gap Analysis</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/intelcorei13/Market-Gap-Analysis'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://app.powerbi.com/view?r=eyJrIjoiNmViZGJhNGMtZDIxYS00NDgyLWIwOTAtYzllZjZiMGJiNzQwIiwidCI6Ijk0MWJiZjVmLWYyYzAtNDg3NS1hMjRjLTY5MDc4NjVkMjUxYSIsImMiOjh9'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <!-- New Project 4 -->
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-4.png" alt="Project 4" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Four</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <!-- New Project 5 -->
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-5.png" alt="Project 5" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Five</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <!-- New Project 6 -->
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-6.png" alt="Project 6" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Six</h2>
                     <div class="btn-container">
                         <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
                             Github
@@ -265,20 +327,69 @@
             </div>
         </div>
     </section>
-    <footer>
-        <nav>
-            <div class="nav-links-container">
-                <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-        <p>Copyright &#169; 2025 Christian Sekpe. All Rights Reserved.</p>
+    <footer class="site-footer">
+        <p class="footer-text">© 2026 Christian Sekpe — All Rights Reserved.</p>
     </footer>
+
     <script src="script.js"></script>
+    <script>
+        const titles = [
+            "Data Analytics",
+            "Programming",
+            "Web Development",
+            "Database Engineering",
+            "Data Visualization",
+            "Machine Learning & AI",
+            "Text Analytics",
+            "Creative Designing",
+            "Data Strategy"
+        ];
+
+        let titleIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        const typedTextElement = document.getElementById("typed-text");
+        const cursorElement = document.querySelector(".cursor");
+        const typingSpeed = 100;
+        const deletingSpeed = 50;
+        const delayBetweenTitles = 2000;
+
+        function type() {
+            const currentTitle = titles[titleIndex];
+
+            if (isDeleting) {
+                typedTextElement.textContent = currentTitle.substring(0, charIndex - 1);
+                charIndex--;
+            } else {
+                typedTextElement.textContent = currentTitle.substring(0, charIndex + 1);
+                charIndex++;
+            }
+
+            // Move cursor by updating its position
+            // The cursor naturally follows because it's right after the typed text in the HTML
+
+            if (!isDeleting && charIndex === currentTitle.length) {
+                // Finished typing, wait before deleting
+                setTimeout(() => {
+                    isDeleting = true;
+                    type();
+                }, delayBetweenTitles);
+                return;
+            }
+
+            if (isDeleting && charIndex === 0) {
+                // Finished deleting, move to next title
+                isDeleting = false;
+                titleIndex = (titleIndex + 1) % titles.length;
+            }
+
+            const speed = isDeleting ? deletingSpeed : typingSpeed;
+            setTimeout(type, speed);
+        }
+
+        // Start the animation
+        type();
+    </script>
 </body>
 
 </html>
