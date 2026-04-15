@@ -4,7 +4,7 @@ Welcome to my personal portfolio, a responsive website built with HTML, CSS, and
 
 This site highlights my works in business analytics, web development, and predictive modeling, including hands-on projects from university coursework and independent exploration. Whether you're a recruiter, collaborator, or fellow learner, I invite you to explore and connect.
 
-🔗 [Visit my portfolio website](https://yourusername.github.io/your-repo-name/)
+🔗 [Visit my portfolio website](https://christiansekpe.netlify.app/)
 
 ---
 
