@@ -346,18 +346,17 @@
     }
 
     .hamburger-icon {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 24px;
-    width: 30px;
-
-    position: absolute;
-    top: 20px;
-    right: 15px;
-
-    margin-right: 0;
-    margin-top: 0;
+        margin-right: 0px;
+        /* reset large desktop shift */
+        margin-top: -30px;
+        height: 24px;
+        /* slightly larger tap area */
+        width: 24px;
+        position: absolute;
+        /* this ensures perfect placement */
+        right: 25px;
+        /* moves to top-right corner */
+        top: 20px;
     }
 
     .menu-links {
