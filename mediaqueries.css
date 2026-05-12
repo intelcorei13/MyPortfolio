@@ -476,14 +476,14 @@
         #projects .about-containers {
         grid-template-columns: 1fr;
     }
-@media screen and (max-width: 600px) {
+    
     #projects .about-containers {
         grid-template-columns: 1fr;
     }
 
     #projects .color-container {
         width: 100%;
-        max-width: 250px;
+        max-width: 280px;
         margin: 0 auto;
     }
 }
