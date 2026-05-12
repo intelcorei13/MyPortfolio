@@ -354,7 +354,7 @@
         width: 24px;
         position: absolute;
         /* this ensures perfect placement */
-        right: -35px;
+        right: -55px;
         /* moves to top-right corner */
         top: 20px;
     }
