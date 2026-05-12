@@ -202,8 +202,10 @@
     }
 
     .about-containers {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
         justify-items: center;
         /* centers the cards */
         margin: 0 auto;
@@ -497,4 +499,14 @@
         /* slightly smaller text */
         opacity: 0.9;
     }
+}
+
+@media screen and (max-width: 600px) {
+
+    .about-containers {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
