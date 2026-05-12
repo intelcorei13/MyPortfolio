@@ -335,7 +335,7 @@
     .logo {
         font-size: 1.0rem;
         margin-top: 0px;
-        margin-left: 15px;
+        margin-left: -40px;
     }
 
     .hamburger-icon span {
@@ -354,7 +354,7 @@
         width: 24px;
         position: absolute;
         /* this ensures perfect placement */
-        right: 15px;
+        right: 25px;
         /* moves to top-right corner */
         top: 20px;
     }
