@@ -372,6 +372,10 @@
         transition: all 0.3 ease-in-out;
     }
 
+    .menu-links a {
+        font-size: 0.9rem;
+        padding: 0.5rem 0.8rem;
+    }
 
     .nav-links {
         flex-direction: column;
